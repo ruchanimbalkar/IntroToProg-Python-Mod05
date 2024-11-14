@@ -5,6 +5,7 @@
 # <Rucha Nimbalkar>, <11/07/2024> <Update the starter file with my name and other details>
 # <Rucha Nimbalkar>, <11/08/2024> <Add dictionary variable row{}>
 # <Rucha Nimbalkar>, <11/10/2024> <GitHub and Json>
+# <Rucha Nimbalkar>, <11/13/2024> <Improvements based on peer review/feedback>
 # ------------------------------------------------------------------------------------------ #
 import json
 from json import JSONDecodeError
@@ -145,6 +146,6 @@ while (True):
     elif menu_choice == "4":
         break  # out of the loop
     else:
-        print("Please only choose option 1, 2, or 3")
+        print("Please only choose option 1, 2, 3 or 4 ( to exit) ")
 
 print("Program Ended")
